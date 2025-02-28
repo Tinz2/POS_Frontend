@@ -1,0 +1,22 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ทำให้เนื้อหากลางหน้าจอ */
+    background: linear-gradient(135deg, #6e7dff, #4e73df); /* พื้นหลังไล่สี */
+    text-align: center;
+  }
+  
+  .welcome-message {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    padding: 40px;
+    border-radius: 15px; /* มุมโค้ง */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* เงาที่ให้ความลึก */
+  }
+  
+  .welcome-message h2 {
+    font-size: 36px;
+    color: #333333; /* สีของข้อความ */
+    font-weight: 700; /* หนาขึ้น */
+  }
+  
